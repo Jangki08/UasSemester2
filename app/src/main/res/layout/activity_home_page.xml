@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="20dp"
+    tools:context=".homePage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/antic"
+        android:text="Tampilan Data Kegemaran"
+        android:textColor="#000"
+        android:textSize="30sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masukan Nama :"
+            android:textColor="#000"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/etAmbil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_ambil"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="login"
+        android:textColor="#000"
+        android:background="@drawable/capsule"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:visibility="visible"
+        android:background="#000"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tampil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Hasil"
+        android:textColor="#000"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
